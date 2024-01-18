@@ -1,0 +1,455 @@
+body {
+    background-image: url(imagens/Screenshot_2.png);
+    background-size: 100vw, 100vh;
+    height: 80rem;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    margin-top: 258px;
+    margin-bottom: 0;
+    padding-left: 210px;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 120px;
+}
+
+.container button {
+    margin-top: 20px;
+    margin-left: 518px;
+    padding-top: 18px;
+    padding-left: 32px;
+    padding-bottom: 22px;
+    padding-right: 32px;
+    align-items: center;
+    background-color: #f9ef23;
+    border: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.botao {
+    text-decoration: none;
+    color: #141414;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 250px;
+}
+
+main p {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Noto Sans Tirhuta', sans-serif;
+    font-weight: 100;
+}
+
+#container_corpo {
+    display: flex;
+}
+
+.imagem_blob {
+    margin-left: 100px;
+    padding-left: 50px;
+    width: 280px;
+    height: 435px;
+}
+
+.image2 {
+    margin-top: 145px;
+    margin-left: 50px;
+    width: 280px;
+    height: 435px;
+}
+
+.sub_titulo{
+    margin-bottom: 0px;
+    padding-top: 35px;
+    padding-left: 75px;
+    color: #f9ef23;
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 70px;
+}
+
+.paragrafo_principal {
+    padding-top: 5px;
+    padding-left: 83px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.saiba {
+    margin-top: 70px;
+    padding-left: 85px;
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.informacao {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container_sobre {
+    margin-top: 80px;
+}
+
+.sobre {
+    display: flex;
+}
+
+.segundo_sub {
+    margin-bottom: 0;
+    padding-left: 400px;
+    color: #f9ef23;
+    font-family: 'Anton', sans-serif;
+    font-size: 65px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+section p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 380px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.peso {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.peso img {
+    margin-left: 50px;
+    height: 440px;
+    position: relative;
+}
+
+.peso h2 {
+    margin-left: 100px;
+    padding-left: 80px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    position: absolute;
+    line-height: 30px;
+}
+
+.corda {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.corda img {
+    margin-left: 20px;
+    height: 440px;
+    position: relative;
+}
+
+.corda h2 {
+    margin-top: 185px;
+    margin-left: 60px;
+    padding-left: 120px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    position: absolute;
+}
+
+#grupo {
+    margin-top: 215px;
+    margin-left: 38px;
+    position: absolute;
+}
+
+.boxe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.boxe img {
+    height: 440px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.boxe h2 {
+    padding-top: 170px;
+    padding-left: 145px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    position: absolute;
+    line-height: 30px;
+}
+
+#treino {
+    margin-top: 220px;
+    padding-top: 5px;
+    padding-left: 147px;
+    font-size: 30px;
+    position: absolute;
+}
+
+.flex-container {
+    display: flex;
+    position: relative;
+}
+
+.text h2 {
+    margin-top: 100px;
+    margin-left: 460px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: #f9ef23;
+    font-size: 63px;
+}
+
+.card1 {
+    margin-top: 1px;
+    margin-left: 55px;
+    background-color: #f9ef23;
+    height: 445px;
+}
+
+.card1 img {
+    height: 240px;
+}
+
+.card1_paragrafo {
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    white-space: pre-line;
+    position: absolute;
+    color: black;
+}
+
+.card1_paragrafo2 {
+    margin-top: 140px;
+    margin-left: 35px;
+    padding: 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    position: absolute;
+    color: black;
+}
+
+.card2 {
+    margin-top: 1px;
+    margin-left: 40px;
+    background-color: #f9ef23;
+    width: 367px;
+    height: 445px;
+}
+
+.card2 img {
+    width: 370px;
+    height: 239px;
+}
+
+.card2-paragrafo {
+    padding-top: 20px;
+    padding-left: 35px;
+    font-style: italic;
+    font-size: 20px;
+    white-space: pre-line;
+    color: black;
+    font-weight: 500;
+    position: absolute;
+}
+
+.card2-paragrafo2 {
+    margin-top: 140px;
+    padding-left: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    position: absolute;
+}
+
+.card3 {
+    margin-top: 1px;
+    margin-left: 40px;
+    background-color: #f9ef23;
+    width: 355px;
+    height: 445px;
+}
+
+.card3 img {
+    width: 355px;
+    height: 240px;
+}
+
+.card3-paragrafo {
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    white-space: pre-line;
+    color: black;
+    position: absolute;
+}
+
+.card3-paragrafo2 {
+    margin-top: 140px;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    position: absolute;
+}
+
+.container-principal {
+    display: flex;
+    position: relative;
+}
+
+.info {
+    margin-top: 270px;
+    margin-left: 55px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.entre {
+    margin-bottom: 0;
+    font-weight: 100;
+    line-height: 30px;
+    color: #f9ef23;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 65px;
+}
+
+.contato {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    color: #f9ef23;
+    font-size: 65px;
+}
+
+.ainda {
+    margin-top: 0;
+    color: #f9ef23;
+    font-weight: 100;
+    line-height: 30px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 65px;
+}
+
+.imagem-principal {
+    margin-top: 130px;
+    margin-left: -8px;
+}
+
+.container-footer {
+    border: 1px solid gray;
+}
+
+.info-final {
+    background-color: #f9ef23;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -14px;
+    height: 230px;
+    display: flex;
+}
+
+.endereco {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 70px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 18px;
+    color: #141414;
+    letter-spacing: 1px;
+}
+
+.email {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 150px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    color: #141414;
+    letter-spacing: 1px;
+}
+
+.telefone {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #141414;
+}
+
+.endereco p {
+    margin-top: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.email p {
+    margin-top: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.telefone p {
+    margin-top: -12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+}
